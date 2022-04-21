@@ -25,5 +25,3 @@ jobs:
     # run Test
     - name: Test
       run: dotnet test --no-build --verbosity normal
-  env:
-    configuration: release
